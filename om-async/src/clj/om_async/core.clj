@@ -24,7 +24,7 @@
         eid   (ffirst
                 (d/q '[:find ?class
                        :in $ ?id
-                       :where 
+                       :where
                        [?class :class/id ?id]]
                   db id))]
     (d/transact conn [[:db/add eid :class/title title]])
