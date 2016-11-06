@@ -191,3 +191,70 @@ Compiling /home/morteza/projects/mass/MyClojure/om-tutorial-2/src/om_tutorial/co
 Compiling target/figwheel_temp/dev/figwheel/connect.cljs
 notifying browser that file changed:  out/om_tutorial/core.js
 [32mSuccessfully compiled "resources/public/js/main.js" in 0.38 seconds.[0m
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling /home/morteza/projects/mass/MyClojure/om-tutorial-2/src/om_tutorial/core.cljs
+WARNING: Use of undeclared Var om-tutorial.core/age at line 60 /home/morteza/projects/mass/MyClojure/om-tutorial-2/src/om_tutorial/core.cljs
+Compiling target/figwheel_temp/dev/figwheel/connect.cljs
+notifying browser that file changed:  resources/public/js/goog/deps.js
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  out/om_tutorial/core.js
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.628 seconds.[0m
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling /home/morteza/projects/mass/MyClojure/om-tutorial-2/src/om_tutorial/core.cljs
+Compiling target/figwheel_temp/dev/figwheel/connect.cljs
+notifying browser that file changed:  out/om_tutorial/core.js
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.412 seconds.[0m
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling /home/morteza/projects/mass/MyClojure/om-tutorial-2/src/om_tutorial/core.cljs
+Compiling target/figwheel_temp/dev/figwheel/connect.cljs
+notifying browser that file changed:  out/om_tutorial/core.js
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.417 seconds.[0m
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling /home/morteza/projects/mass/MyClojure/om-tutorial-2/src/om_tutorial/core.cljs
+Compiling target/figwheel_temp/dev/figwheel/connect.cljs
+notifying browser that file changed:  out/om_tutorial/core.js
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.378 seconds.[0m
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling /home/morteza/projects/mass/MyClojure/om-tutorial-2/src/om_tutorial/core.cljs
+WARNING: Use of undeclared Var cljs.core/defmethod at line 48 /home/morteza/projects/mass/MyClojure/om-tutorial-2/src/om_tutorial/core.cljs
+WARNING: Use of undeclared Var om-tutorial.core/state at line 49 /home/morteza/projects/mass/MyClojure/om-tutorial-2/src/om_tutorial/core.cljs
+WARNING: Use of undeclared Var om-tutorial.core/_ at line 49 /home/morteza/projects/mass/MyClojure/om-tutorial-2/src/om_tutorial/core.cljs
+WARNING: Use of undeclared Var om-tutorial.core/state at line 52 /home/morteza/projects/mass/MyClojure/om-tutorial-2/src/om_tutorial/core.cljs
+Compiling target/figwheel_temp/dev/figwheel/connect.cljs
+notifying browser that file changed:  out/om_tutorial/core.js
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.451 seconds.[0m
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling /home/morteza/projects/mass/MyClojure/om-tutorial-2/src/om_tutorial/core.cljs
+Compiling target/figwheel_temp/dev/figwheel/connect.cljs
+notifying browser that file changed:  out/om_tutorial/core.js
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.401 seconds.[0m
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling /home/morteza/projects/mass/MyClojure/om-tutorial-2/src/om_tutorial/core.cljs
+Compiling target/figwheel_temp/dev/figwheel/connect.cljs
+notifying browser that file changed:  out/om_tutorial/core.js
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.429 seconds.[0m
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling /home/morteza/projects/mass/MyClojure/om-tutorial-2/src/om_tutorial/core.cljs
+Compiling target/figwheel_temp/dev/figwheel/connect.cljs
+notifying browser that file changed:  out/om_tutorial/core.js
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.414 seconds.[0m
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling /home/morteza/projects/mass/MyClojure/om-tutorial-2/src/om_tutorial/core.cljs
+Compiling target/figwheel_temp/dev/figwheel/connect.cljs
+notifying browser that file changed:  out/om_tutorial/core.js
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.412 seconds.[0m
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling /home/morteza/projects/mass/MyClojure/om-tutorial-2/src/om_tutorial/core.cljs
+Compiling target/figwheel_temp/dev/figwheel/connect.cljs
+notifying browser that file changed:  out/om_tutorial/core.js
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.41 seconds.[0m
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling /home/morteza/projects/mass/MyClojure/om-tutorial-2/src/om_tutorial/core.cljs
+Compiling target/figwheel_temp/dev/figwheel/connect.cljs
+notifying browser that file changed:  out/om_tutorial/core.js
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.437 seconds.[0m
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling /home/morteza/projects/mass/MyClojure/om-tutorial-2/src/om_tutorial/core.cljs
+Compiling target/figwheel_temp/dev/figwheel/connect.cljs
+notifying browser that file changed:  out/om_tutorial/core.js
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.426 seconds.[0m

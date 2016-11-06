@@ -6,7 +6,7 @@
 (enable-console-print!)
 
 (def init-data
-  {:list/one [{:name "John" :points 0}
+  {:list/one [{:name "John" :points 0 :age 31}
               {:name "Mary" :points 0}
               {:name "Bob"  :points 0}]
    :list/two [{:name "Mary" :points 0 :age 27}
@@ -37,12 +37,28 @@
             [:person/by-name name :points]
             inc))})
 
+(defmethod mutate 'points/incrementAge
+  [{:keys [state]} _ {:keys [name]}]
+  {:action
+   (fn []
+     (swap! state update-in
+            [:person/by-name name :age]
+            inc))})
+
 (defmethod mutate 'points/decrement
   [{:keys [state]} _ {:keys [name]}]
   {:action
    (fn []
      (swap! state update-in
             [:person/by-name name :points]
+            #(let [n (dec %)] (if (neg? n) 0 n))))})
+
+(defmethod mutate 'points/decrementAge
+  [{:keys [state]} _ {:keys [name]}]
+  {:action
+   (fn []
+     (swap! state update-in
+            [:person/by-name name :age]
             #(let [n (dec %)] (if (neg? n) 0 n))))})
 
 (defui Person
@@ -55,21 +71,36 @@
   Object
   (render [this]
           (println "Render Person" (-> this om/props :name))
-          (let [{:keys [points name] :as props} (om/props this)]
+          (let [{:keys [points name age] :as props} (om/props this)]
             (dom/li nil
-                    (dom/label nil (str name ", points: " points))
+                    (dom/label nil (str name ", points: " points " age: " age))
                     (dom/button
                      #js {:onClick
                           (fn [e]
                             (om/transact! this
                                           `[(points/increment ~props)]))}
                      "+")
+
                     (dom/button
                      #js {:onClick
                           (fn [e]
                             (om/transact! this
                                           `[(points/decrement ~props)]))}
-                     "-")))))
+                     "-")
+
+                    (dom/button
+                     #js {:onClick
+                          (fn [e]
+                            (om/transact! this
+                                          `[(points/incrementAge ~props)]))}
+                     "+++")
+
+                    (dom/button
+                     #js {:onClick
+                          (fn [e]
+                            (om/transact! this
+                                          `[(points/decrementAge ~props)]))}
+                     "---")))))
 
 (def person (om/factory Person {:keyfn :name}))
 
