@@ -365,3 +365,15 @@ Compiling src/om_tutorial/core.cljs
 Compiling target/figwheel_temp/dev/figwheel/connect.cljs
 notifying browser that file changed:  out/om_tutorial/core.js
 [32mSuccessfully compiled "resources/public/js/main.js" in 0.528 seconds.[0m
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling /home/morteza/projects/mass/MyClojure/om-tutorial-3/src/om_tutorial/core.cljs
+Compiling target/figwheel_temp/dev/figwheel/connect.cljs
+notifying browser that file changed:  resources/public/js/goog/deps.js
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  out/om_tutorial/core.js
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.814 seconds.[0m
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling /home/morteza/projects/mass/MyClojure/om-tutorial-3/src/om_tutorial/core.cljs
+Compiling target/figwheel_temp/dev/figwheel/connect.cljs
+notifying browser that file changed:  out/om_tutorial/core.js
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.49 seconds.[0m
